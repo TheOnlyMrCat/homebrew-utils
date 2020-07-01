@@ -11,7 +11,6 @@ class Runscript < Formula
   bottle do
     root_url "https://dl.bintray.com/theonlymrcat/bottles-utils"
     cellar :any_skip_relocation
-    rebuild 1
     sha256 "15d2da5fd36460c7850bf907e4aa2106e4e2c270f14324f8bce8e63686849a11" => :catalina
   end
 
