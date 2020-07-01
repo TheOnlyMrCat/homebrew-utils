@@ -9,9 +9,10 @@ class Runscript < Formula
   conflicts_with "run", :because => "It's literally the same program"
 
   bottle do
-    root_url "https://homebrew.bintray.com/bottles-utils"
+    root_url "https://dl.bintray.com/theonlymrcat/bottles-utils"
     cellar :any_skip_relocation
-    sha256 "9225136209cdd9e25951e2c24b4522ff3ddc977595b0c5323fa9d7cab6895162" => :catalina
+    rebuild 1
+    sha256 "15d2da5fd36460c7850bf907e4aa2106e4e2c270f14324f8bce8e63686849a11" => :catalina
   end
 
   def install
